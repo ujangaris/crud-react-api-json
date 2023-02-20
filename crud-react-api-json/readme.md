@@ -65,3 +65,19 @@
         - lakukan update data, kemudian klik  Update Data
         - jika setup yang kita lakukan berhasil , akan ada alert succes, dan
           data berhasil terupdate serta tersimpan kedalam db.json
+
+## Delete Data
+
+    Todo:
+    1.  Home.jsx
+        - import dan pasang Navigate dari react-router-dom
+        - pasang handle delete
+        - pasang confirm untuk delete
+        - update state dengan method filter
+        - pasang handleDelete
+    2.  pengujian pada browser:
+        - pada table klik button delete pada salah satu data, akan tampil alert confirm untuk delete
+        - jik klik cancle maka data tidak jd dihapus
+        - jik klik ok maka data akan dihapus
+        - jika setup yang kita lakukan berhasil , data akan terhapus permanent dan
+          data berhasil terupdate serta tersimpan kedalam db.json

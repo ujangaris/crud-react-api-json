@@ -4,8 +4,7 @@
       "id": 1,
       "name": "Akbar",
       "username": "akbar",
-      "email": "akbar@gmail.com",
-      "password": "rahasia"
+      "email": "akbar@gmail.com"
     },
     {
       "id": 2,
@@ -20,25 +19,11 @@
       "email": "cindy@gmail.com"
     },
     {
-      "name": "Test",
-      "username": "test",
-      "email": "test@mail.com",
-      "password": "rahasia",
-      "id": 4
-    },
-    {
-      "name": "Danang ",
-      "username": "danang ",
-      "email": "danang@gmail.com",
-      "password": "rahasia",
-      "id": 5
-    },
-    {
       "name": "Mbak Retno",
       "username": "onter",
       "email": "retno@gmail.com",
       "password": "rahasia",
-      "id": 6
+      "id": 4
     }
   ]
 }

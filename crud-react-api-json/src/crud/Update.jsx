@@ -7,6 +7,7 @@ function Update() {
   const { id } = useParams();
   // deklarasi hook dengan object
   const [inputData, setInputData] = useState({
+    id: id,
     name: '',
     username: '',
     email: '',
