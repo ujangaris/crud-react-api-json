@@ -4,7 +4,8 @@
       "id": 1,
       "name": "Akbar",
       "username": "akbar",
-      "email": "akbar@gmail.com"
+      "email": "akbar@gmail.com",
+      "password": "rahasia"
     },
     {
       "id": 2,
@@ -34,7 +35,7 @@
     },
     {
       "name": "Mbak Retno",
-      "username": "retno",
+      "username": "onter",
       "email": "retno@gmail.com",
       "password": "rahasia",
       "id": 6

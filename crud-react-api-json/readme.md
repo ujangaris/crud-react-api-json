@@ -44,3 +44,24 @@
         - lakukan input data, kemudian klik  Add Data
         - jika setup yang kita lakukan berhasil , akan ada alert succes, dan
           data berhasil bertambah serta tersimpan kedalam db.json
+
+## Update Data
+
+    Todo:
+    1.  Update.jsx
+        - copy data dari Create lalu modifikasi
+        - buat functional Update
+        - import dan pasang axios
+        - import dan pasang Navigate dari react-router-dom
+        - deklarasi hook yang dapatkan nilai dari parameter yang diberikan di URL
+        - deklarasi hook dengan object
+        - pasang handleSubmit
+    2.  App.jsx
+        - import dan panggil path Update
+    3.  Home.jsx
+        - import dan panggil Link Update
+    4.  pengujian pada browser:
+        - pada table klik button Update pada salah satu data, akan tampil form update untuk update data
+        - lakukan update data, kemudian klik  Update Data
+        - jika setup yang kita lakukan berhasil , akan ada alert succes, dan
+          data berhasil terupdate serta tersimpan kedalam db.json

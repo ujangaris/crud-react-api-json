@@ -13,8 +13,8 @@ function Home() {
   }, []);
 
   return (
-    <div className='container'>
-      <h2>Crud App with JSON Serve</h2>
+    <div className='container mt-5'>
+      <h2>Crud App with JSON Server</h2>
       <Link to='/create' className='btn btn-success'>
         Create +
       </Link>
@@ -38,7 +38,9 @@ function Home() {
                 <td>{d.username}</td>
                 <td>{d.email}</td>
                 <td>
-                  <button className='btn btn-primary mx-2'>Update</button>
+                  <Link to={`/update/${d.id}`} className='btn btn-primary mx-2'>
+                    Update
+                  </Link>
                   <button className='btn btn-danger'>Delete</button>
                 </td>
               </tr>
