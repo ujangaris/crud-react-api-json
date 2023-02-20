@@ -13,17 +13,25 @@
       "email": "bili@gmail.com"
     },
     {
-      "id": 3,
-      "name": "Cindy",
-      "username": "cindy",
-      "email": "cindy@gmail.com"
-    },
-    {
       "name": "Mbak Retno",
       "username": "onter",
       "email": "retno@gmail.com",
       "password": "rahasia",
       "id": 4
+    },
+    {
+      "name": "John Do",
+      "username": "demo",
+      "email": "test@mail.com",
+      "password": "1",
+      "id": 5
+    },
+    {
+      "name": "Test",
+      "username": "demo",
+      "email": "ujangaja@gmail.com",
+      "password": "1",
+      "id": 6
     }
   ]
 }

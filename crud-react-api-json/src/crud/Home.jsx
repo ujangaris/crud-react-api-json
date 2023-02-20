@@ -64,10 +64,13 @@ function Home() {
                   {/* pasang handleDelete */}
                   <button
                     onClick={(e) => handleDelete(d.id)}
-                    className='btn btn-danger'
+                    className='btn btn-danger mx-2'
                   >
                     Delete
                   </button>
+                  <Link className='btn btn-success' to={`/read/${d.id}`}>
+                    read
+                  </Link>
                 </td>
               </tr>
             ))}
