@@ -17,6 +17,27 @@
       "name": "Cindy",
       "username": "cindy",
       "email": "cindy@gmail.com"
+    },
+    {
+      "name": "Test",
+      "username": "test",
+      "email": "test@mail.com",
+      "password": "rahasia",
+      "id": 4
+    },
+    {
+      "name": "Danang ",
+      "username": "danang ",
+      "email": "danang@gmail.com",
+      "password": "rahasia",
+      "id": 5
+    },
+    {
+      "name": "Mbak Retno",
+      "username": "retno",
+      "email": "retno@gmail.com",
+      "password": "rahasia",
+      "id": 6
     }
   ]
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -14,7 +15,9 @@ function Home() {
   return (
     <div className='container'>
       <h2>Crud App with JSON Serve</h2>
-      <button className='btn btn-success'>Create +</button>
+      <Link to='/create' className='btn btn-success'>
+        Create +
+      </Link>
       <hr />
       <div className='table-responsive'>
         <table className='table table-striped table-hover text-center'>
